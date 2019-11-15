@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Muriega inyuothe!?\n")
+	greeting string = "Muriega inyuothe!?\n"
+	fmt.Printf(greeting)
 }
 
