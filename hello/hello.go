@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang-sandbox/stringutil"
+)
 
 func main() {
-	greeting string = "Muriega inyuothe!?\n"
-	fmt.Printf(greeting)
+	greeting := "?!ehtouyni ageiruM"
+	fmt.Println(stringutil.Reverse(greeting))
 }
-
